@@ -1,0 +1,107 @@
+
+
+body{
+  background: #D0D3D4 !important;
+
+}
+
+.card-border{
+  border-radius: .5rem !important;
+}
+
+.c-p{
+  padding: 24px !important;
+}
+
+.btn-color{
+  width: 100%;
+  background:#D7BDE2  !important;
+  border-color:#D7BDE2  !important ;
+  border-radius: .5rem !important;
+}
+
+.bg-b{
+  background-color: #D0D3D4 !important;
+}
+
+
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+input[type="checkbox"]:focus,
+input[type="email"]:focus,
+.uneditable-input:focus {
+  border-color: #D0D3D4 !important;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #C39BD3;
+  outline: 0 none;
+
+
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+.uneditable-input:focus {
+  border-color: #D0D3D4 !important;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #C39BD3;
+  outline: 0 none;
+  width: 100% !important;
+  border-radius: .5rem !important;
+
+}
+
+
+button:focus,
+.uneditable-input {
+  border-color: #D0D3D4 !important;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #C39BD3;
+  outline: 0 none;
+  border-radius: .5rem !important;
+  background: #D0D3D4 !important;
+}
+
+
+
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+.uneditable-input:focus {
+  width: 100% !important;
+  border-radius: .5rem !important;
+}
+
+input[type="checkbox"],
+.uneditable-input {
+  cursor: pointer;
+  border-color: #D0D3D4 !important;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #C39BD3;
+  outline: 0 none;
+}
+
+.error-message {
+  color: red;
+  display: block;
+
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.error-block {
+  height: 20px;
+  margin-top: 10px;
+}
+
+
+

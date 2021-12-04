@@ -1,7 +1,14 @@
 <template>
-    <div>
-        Welcome {{ name }}
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <h4 class="">
+                    Welcome {{ name }}
+                </h4>
+            </div>
+        </div>
     </div>
+
 </template>
 
 <script>

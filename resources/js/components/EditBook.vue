@@ -1,22 +1,32 @@
 <template>
-    <div>
-        <h4 class="text-center">Edit Book</h4>
-        <div class="row">
-            <div class="col-md-6">
-                <form @submit.prevent="updateBook">
-                    <div class="form-group">
-                        <label>Name</label>
-                        <input type="text" class="form-control" v-model="book.name">
+    <div class="container-fluid my-3">
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <div class="card card-border bg-light">
+                    <div class="card-body c-p">
+                        <div>
+                            <h4 class="text-center">Edit Book</h4>
+                            <div>
+                                <form @submit.prevent="updateBook">
+                                    <div class="form-group">
+                                        <label>Name</label>
+                                        <input type="text" class="form-control bg-b mb-2" v-model="book.name">
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Author</label>
+                                        <input type="text" class="form-control bg-b" v-model="book.author">
+                                    </div>
+                                    <button type="submit" class="btn btn-primary my-2">Update Book</button>
+                                </form>
+                            </div>
+                        </div>
                     </div>
-                    <div class="form-group">
-                        <label>Author</label>
-                        <input type="text" class="form-control" v-model="book.author">
-                    </div>
-                    <button type="submit" class="btn btn-primary">Update Book</button>
-                </form>
+                </div>
             </div>
         </div>
     </div>
+
+
 </template>
 
 <script>

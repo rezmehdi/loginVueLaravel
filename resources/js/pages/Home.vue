@@ -11,8 +11,8 @@
                     id temporibus, ex exercitationem sint ad earum in sed? Quam, cum sunt.
                 </p>
 
-<!--                <router-link class="btn btn-dark" :to="{name:'users'}">Users</router-link>-->
-<!--                <router-link class="btn btn-light ms-3" :to="{name:'posts'}">Posts</router-link>-->
+                <router-link class="btn btn-dark" :to="{name:'register'}">Register</router-link>
+                <router-link class="btn btn-light ms-3" :to="{name:'login'}">Login</router-link>
             </div>
         </div>
     </div>

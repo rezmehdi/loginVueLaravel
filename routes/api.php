@@ -2,6 +2,8 @@
 
 use App\Http\Controllers\API\BookController;
 use App\Http\Controllers\API\UserController;
+use App\Http\Controllers\API\TodoController;
+
 use Illuminate\Support\Facades\Route;
 /*
 |--------------------------------------------------------------------------
@@ -29,3 +31,14 @@ Route::group(['prefix' => 'books', 'middleware' => 'auth:sanctum'], function () 
     Route::post('update/{id}', [BookController::class, 'update']);
     Route::delete('delete/{id}', [BookController::class, 'delete']);
 });
+
+
+//Route::group(['prefix'=>'todos','middleware'=>'auth:sanctum'], function (){
+    Route::get('/todos',[TodoController::class,'index']);
+    Route::post('/todos/create', [TodoController::class, 'store']);
+    route::get('/todos/destroy/{id}',[TodoController::class,'destroy']);
+    route::get('/todos/destroy-all',[TodoController::class,'destroys']);
+    route::post('/todos/done',[TodoController::class,'done']);
+    route::post('/todos/update',[TodoController::class,'update']);
+//});
+

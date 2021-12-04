@@ -10,6 +10,9 @@ import Books from '../components/Books.vue';
 import AddBook from '../components/AddBook.vue';
 import EditBook from '../components/EditBook.vue';
 
+import TemplateTodos from '../pages/todos/Template';
+import IndexTodos from '../pages/todos/Index.vue';
+
 export const routes = [
     {
         name: 'home',
@@ -50,6 +53,11 @@ export const routes = [
         name: 'editbook',
         path: '/books/edit/:id',
         component: EditBook
+    },
+    {
+        path: '/todos', name: 'todosTemplate', component: TemplateTodos, children: [
+            { path: '', name: 'todos', component: IndexTodos },
+        ]
     },
 ];
 
